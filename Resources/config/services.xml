@@ -9,7 +9,7 @@
 	</parameters>
 	
     <services>
-    	<service id="domain.parser" class="%domain.parser.class%">
+    	<service id="domain_parser" class="%domain_parser.class%">
     	</service>
 	</services>
 </container>
