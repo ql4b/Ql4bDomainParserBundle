@@ -9,7 +9,7 @@ class Parser extends PdpParser
     
     public function __construct()
     {
-        $pslManager = new PublicSuffixListManager();
+        $pslManager = new PdpPublicSuffixListManager();
         parent::__construct($pslManager->getList());
         
     }
