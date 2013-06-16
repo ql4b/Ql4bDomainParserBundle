@@ -1,0 +1,19 @@
+{
+    "name": "ql4b/domain-parser-bundle",
+    "description": "Symfony Bundle to use with jeremykendall PHP Domain Parser (https://github.com/jeremykendall/php-domain-parser)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlo D'Ambrosio",
+            "email": "carlo@ql4b.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Ql4b\\Bundle\\DomainParserBundle": "" }
+    },
+    "target-dir": "Ql4b/Bundle/DomainParserBundle",
+    "minimum-stability": "stable",
+    "require": {
+    	"jeremykendall/php-domain-parser": "dev-develop"
+    }
+}
